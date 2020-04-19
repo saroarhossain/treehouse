@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+      width: 1510px;
+      background: #5cbbff;
+      height: 60px;
+      border-bottom: 1.7px solid #78afd6;
+}
+
+.box1{
+    width: 1400px;
+    padding: 6px;
+    height: 40px;
+    margin: auto;
+}
+
+.left-heading{
+    
+width: 615px;
+    
+float: left;
+    
+text-align: end;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    
+display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 8px;
+  }
+
+
+.logo{
+      width: 145px;
+      float: left;
+      text-align: center;
+}
+
+
+.logo img {
+    
+width: 120px;
+    
+margin-top: 14px;
+}
+
+.right-heading{
+    
+width: 615px;
+    
+float: left;
+    
+margin: 0;
+}
+
+.box2{
+    width: 1510px;
+    height: 700px;
+}
+
+.left-banner{
+    width: 570px;
+    float: left;
+    height: 700px;
+}
+
+.left-banner img {
+    width: 570px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.right-banner{
+    width: 940px;
+    float: right;
+    background: #2196F3;
+    height: 700px;
+  }
+
+.signup-area{
+    width: 260px;
+    background: #2196F3;
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+
+.signup-area h4 {
+    margin: auto;
+    font-size: 21px;
+    color: white;
+    width: 250px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    font-weight: 400;
+}
+
+.signup-area p {
+  margin: auto;
+  font-size: 13px;
+  color: white;
+  text-align: justify;
+  width: 250px;
+  margin-left: 0px;
+  margin-bottom: 25px;
+  padding-top: 2px;
+  }
+
+form{width: 258px;}
+form label{
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 5px;
+  padding-left: 0;
+}
+form input {
+    display: block;
+    padding: 7px;
+    width: 248px;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+form input[type="submit"] {
+    display: block;
+    width: auto;
+    color: #2196f3a1;
+} 
+
+form input[type="submit"]:hover {
+    color: white;
+    font-weight: 400;
+    background: blue;
+    border: 1px solid;
+}
+
+
+.link-section{}
+.link-section p{
+    padding-top: 25px;
+    font-size: 14px;
+    color: #ffffff80;
+    width: auto;
+}
+
+.link-section a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffffc9;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.link-section a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.box3{
+
+    width: 1510px;
+    background: #2196F3;
+    height: 700px;
+}
+
+.box3 h4 {
+
+    font-size: 21px;
+    color: white;
+    font-weight: 400;
+    margin: auto;
+    padding: 20px;
+}
